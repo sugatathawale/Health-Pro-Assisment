@@ -1,0 +1,74 @@
+/* header container */
+.headerContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.features{
+    display: flex;
+}
+
+.leftSider{
+    display: flex;
+}
+.chekagebox{
+    display: grid;
+    grid-template-columns: repeat(3, 1.5fr); /* 3 columns */
+    gap: 20px; /* Space between checkboxes */
+    justify-content: center; /* Center the grid horizontally */
+    margin: 10px auto; /* Optional: Center the entire container */
+    max-width: 450px; 
+    display: block; /* Move label below the checkbox */
+    margin-top: 10px; /* Add some space between checkbox and label */
+    
+}
+
+.iscsPro {
+    display: flex;             /* Use Flexbox for layout */
+    justify-content:column;  /* Distribute space between items */
+    align-items: center;       /* Align items vertically at the center */
+    gap: 20px;
+    margin-left: 550px;
+                    
+}
+  
+.iscsPro span {
+    display: flex; 
+    justify-content:column;
+    align-items: center;       
+    gap: 5px;                  
+}
+  
+
+.iscsProoooo{
+    display: flex;            
+    justify-content:column;  /* Distribute space between items */
+    align-items: center;       /* Align items vertically at the center */
+    gap: 20px;
+    margin-left: 400px;
+}
+.iscsProoooo span {
+    display: flex; 
+    justify-content:column;
+    align-items: center;       
+    gap: 5px;                  
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    background-color: #D75555 ;
+    color: white;
+    height:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
